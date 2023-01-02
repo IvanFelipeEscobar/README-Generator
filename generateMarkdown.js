@@ -78,7 +78,7 @@ function generateMarkdown(data) {
 \nThis project is licensed under the ${data.license} - see the [License](${licenseUrl}) page.
 \n## Questions
 \n[Github Profile](https://github.com/${data.github})
-\nIf you have any additional question just email - [${data.email}](${data.email})
+\nIf you have any additional question just email - ${data.email}
 `)
 
 
