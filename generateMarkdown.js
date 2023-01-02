@@ -16,11 +16,11 @@ function renderLicenseBadge(license) {
       badge = { name: `Apache+2.0`, color: `green` };
       break;
     case `MIT License`:
-      badge = { name: `MIT`, color: `brightgreen` };
+      badge = { name: `MIT`, color: `red` };
       break;
   }
 
-  return `https://img.shields.io/static/v1?label=license&message=${badge.name}&color=${badge.color})`; //io generates badge based on user input, in this case display message is rendered from input and color added in object
+  return `https://img.shields.io/static/v1?label=license&message=${badge.name}&color=${badge.color}`; //io generates badge based on user input, in this case display message is rendered from input and color added in object
 }}
 
 // TODO: Create a function that returns the license link
@@ -55,7 +55,7 @@ function generateMarkdown(data) {
   let licenseUrl = renderLicenseLink(data.license)
   let result = (
 `# ${data.title}
-\n![License](${licenseBadge}
+\n![${data.license}](${licenseBadge})
 \n## Table of Contents
 \n* [Description](#Description)
 \n* [Installation](#Installation)
@@ -75,7 +75,7 @@ function generateMarkdown(data) {
 \n## Tests
 \n${data.test}
 \n## License
-\nThis project is licensed under the ${data.license} - see the [License](${licenseUrl}) page.
+\nThis project is licensed under the ${data.license} - see the [${data.license}](${licenseUrl}) page.
 \n## Questions
 \n[Github Profile](https://github.com/${data.github})
 \nIf you have any additional question just email - ${data.email}
