@@ -67,7 +67,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
     .then((response) => {
-        return writeToFile(`README.md`, genMD(response))
+        return writeToFile(`testREADME.md`, genMD(response))
     }
 
     )
