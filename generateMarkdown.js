@@ -1,10 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let badge;
-  if (license === `N/A`){
-    return ` `;
-  } else {
   switch (license) {
     case `GNU AGPLv3`:
       badge = { name: `GNU+AGPLv3`, color: `orange` };
@@ -18,17 +14,19 @@ function renderLicenseBadge(license) {
     case `MIT License`:
       badge = { name: `MIT`, color: `red` };
       break;
+    case `N/A`:
+      badge = { name: `N/A`, color: `white`};
+      break;
   }
 
   return `https://img.shields.io/static/v1?label=license&message=${badge.name}&color=${badge.color}`; //io generates badge based on user input, in this case display message is rendered from input and color added in object
-}}
+}
 
 // TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   let path;
   if (license === `N/A`){
-    return ` `
+    return `https://choosealicense.com/no-permission/`
   } else {
   
   switch (license) {
@@ -54,12 +52,11 @@ function generateMarkdown(data) {
   let licenseBadge = renderLicenseBadge(data.license)
   let licenseUrl = renderLicenseLink(data.license)
   let result = (
-`# ${data.title}
-\n![${data.license}](${licenseBadge})
+`# ${data.title}\t[![${data.license}](${licenseBadge})](${licenseUrl})
 \n## Table of Contents
 \n* [Description](#Description)
 \n* [Installation](#Installation)
-\n* [Usage](Usage)
+\n* [Usage](#Usage)
 \n* [Contributing](#Contributing)
 \n* [Tests](#Tests)
 \n* [License](#License)
