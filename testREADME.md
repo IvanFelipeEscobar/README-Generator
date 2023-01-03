@@ -1,4 +1,4 @@
-# Test Title	[![MIT License](https://img.shields.io/static/v1?label=license&message=MIT&color=red)](https://choosealicense.com/licenses/mit/)
+# Test Project	[![Apache License 2.0](https://img.shields.io/static/v1?label=license&message=Apache+2.0&color=green)](https://choosealicense.com/licenses/apache-2.0/)
 
 ## Table of Contents
 
@@ -18,19 +18,19 @@
 
 ## Description
 
-Short description blah blah blah
+short description blah blah blah blah
 
 ## Installation
 
-install program, then run it
+install prgrom, then run it
 
 ## Usage
 
-use at own risk
+use at your own risk
 
 ## Contributing
 
-be wary
+none
 
 ## Tests
 
@@ -38,7 +38,7 @@ none
 
 ## License
 
-This project is licensed under the MIT License - see the [MIT License](https://choosealicense.com/licenses/mit/) page.
+This project is licensed under the Apache License 2.0 - see the [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/) page.
 
 ## Questions
 

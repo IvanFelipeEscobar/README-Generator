@@ -11,5 +11,8 @@ To run application clone github repo into a directory in your local machine, ins
 ## Usage
 
 Using CLI answer the questions asked and the application will generate the a properly formatted ReadME file!
+
 [Github Repo](https://github.com/IvanFelipeEscobar/README-Generator)
+
+![Application Video](./Untitled_%20Jan%203%2C%202023%202_52%20PM.webm)
 
