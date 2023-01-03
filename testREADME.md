@@ -1,4 +1,4 @@
-# title	[![N/A](https://img.shields.io/static/v1?label=license&message=N/A&color=white)](https://choosealicense.com/no-permission/)
+# Test Title	[![MIT License](https://img.shields.io/static/v1?label=license&message=MIT&color=red)](https://choosealicense.com/licenses/mit/)
 
 ## Table of Contents
 
@@ -18,27 +18,27 @@
 
 ## Description
 
-short desc
+Short description blah blah blah
 
 ## Installation
 
-inst inst
+install program, then run it
 
 ## Usage
 
-usage blah blah blah
+use at own risk
 
 ## Contributing
 
-none
+be wary
 
 ## Tests
 
-noenenennen
+none
 
 ## License
 
-This project is licensed under the N/A - see the [N/A](https://choosealicense.com/no-permission/) page.
+This project is licensed under the MIT License - see the [MIT License](https://choosealicense.com/licenses/mit/) page.
 
 ## Questions
 
