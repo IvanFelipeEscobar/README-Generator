@@ -7,37 +7,37 @@ const genMD = require(`./generateMarkdown.js`)
 const questions = [
     {
         type: `input`,
-        message: `What is the title of the project`,
+        message: `What is the title of the project: `,
         name: `title`
     },
     {
         type: `input`,
-        message: `Provide a short description of the project`,
+        message: `Provide a short description of the project: `,
         name: `description`
     },
     {
         type: `input`,
-        message: `Provide installation instructions if any`,
+        message: `Provide installation instructions: `,
         name: `install`
     },
     {
         type: `input`,
-        message: `Provide information for the usage of project`,
+        message: `Provide information for the usage of project: `,
         name: `usage`
     },
     {
         type: `input`,
-        message: `Provide contribution guidelines`,
+        message: `Provide contribution guidelines: `,
         name: `contribution`
     },
     {
         type: `input`,
-        message: `Provide test instructions if any`,
+        message: `Provide test instructions: `,
         name: `test`
     },
     { 
         type: `list`,
-        message: `Choose a license for your project.`,
+        message: `Choose a license for your project:`,
         choices: [`GNU AGPLv3`, `Mozilla Public License 2.0`, `Apache License 2.0`, `MIT License`, `N/A`],
         name: `license`
     },
