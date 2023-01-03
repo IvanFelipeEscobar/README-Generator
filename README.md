@@ -1,49 +1,15 @@
 # ReadMe Generator
 
-![License]( 
-
-## Table of Contents
-
-* [Description](#Description)
-
-* [Installation](#Installation)
-
-* [Usage](Usage)
-
-* [Contributing](#Contributing)
-
-* [Tests](#Tests)
-
-* [License](#License)
-
-* [Questions](#Questions)
-
 ## Description
 
-Using the Inquirer package via Node JS this application takes user input in order to crate a basic ReadMe file for an Application
+Using the Inquirer package via Node JS this application takes user CLI input in order to crate a basic ReadMe file for an Application
 
 ## Installation
 
-N/A
+To run application clone github repo into a directory in your local machine, install inquirer use CLI  -npm i inquirer@8.2.4- You can run program in the terminal with -node index.js-
 
 ## Usage
 
-Using CLI answer the questions asked and the application will generate the file!
+Using CLI answer the questions asked and the application will generate the a properly formatted ReadME file!
+[Github Repo](https://github.com/IvanFelipeEscobar/README-Generator)
 
-## Contributing
-
-N/A
-
-## Tests
-
-N/A
-
-## License
-
-This project is licensed under the N/A - see the [License]( ) page.
-
-## Questions
-
-[Github Profile](https://github.com/IvanFelipeEscobar)
-
-If you have any additional question just email - [IvnEscbr1989@gmail.com](IvnEscbr1989@gmail.com)
