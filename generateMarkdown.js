@@ -1,4 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
+//function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   let badge;
   switch (license) {
@@ -22,7 +22,7 @@ function renderLicenseBadge(license) {
   return `https://img.shields.io/static/v1?label=license&message=${badge.name}&color=${badge.color}`; //io generates badge based on user input, in this case display message is rendered from input and color added in object
 }
 
-// TODO: Create a function that returns the license link
+//function that returns the license link
 function renderLicenseLink(license) {
   let path;
   if (license === `N/A`){
@@ -47,7 +47,7 @@ function renderLicenseLink(license) {
   return `https://choosealicense.com/licenses/${path}/`;
 }}
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdown for README
 function generateMarkdown(data) {
   let licenseBadge = renderLicenseBadge(data.license)
   let licenseUrl = renderLicenseLink(data.license)
